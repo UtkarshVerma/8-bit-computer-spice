@@ -1,0 +1,46 @@
+{
+  "last_sch_text_sim_command": ".tran 0.4m 1\n.param VCC=5",
+  "tabs": [
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 0.4m 1\n.param VCC=5",
+        ".kicad adjustpaths",
+        ".save all"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(/Clock_Module/_CLK)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(/Clock_Module/_MANUAL_CLK_PULSE)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/Clock_Module/a)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(VCC)",
+          "trace_type": 257
+        }
+      ]
+    }
+  ],
+  "user_defined_signals": [],
+  "version": 6
+}

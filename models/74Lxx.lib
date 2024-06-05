@@ -1,0 +1,57 @@
+* ----------------------------------------------------------- 74LS04 ------
+*  Hex Inverters
+*
+*  The TTL Logic Data Book, 1988, TI Pages 2-25 to 2-29
+*  bss    2/3/94
+*
+.SUBCKT 74LS04  1A  1Y
++     optional: DPWR=$G_DPWR DGND=$G_DGND
++     params: MNTYMXDLY=0 IO_LEVEL=0
+
+U1 inv DPWR DGND
++     1A 1Y
++     DLY_LS04 IO_LS MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
+
+.model DLY_LS04 ugate (tplhTY=9ns tplhMX=15ns tphlTY=10ns tphlMX=15ns)
+
+.ENDS  74LS04
+*
+*
+* ----------------------------------------------------------- 74LS08 ------
+*  Quad 2-Input And Gates   
+*
+*  The TTL Logic Data Book, 1988, TI Pages 2-41 to 2-45
+*  bss    2/3/94
+*
+.SUBCKT 74LS08  1A 1B  1Y
++     optional: DPWR=$G_DPWR DGND=$G_DGND
++     params: MNTYMXDLY=0 IO_LEVEL=0
+
+U1 and(2) DPWR DGND
++     1A 1B 1Y
++     DLY_LS08 IO_LS MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
+
+.model DLY_LS08 ugate (tplhTY=8ns tplhMX=15ns tphlTY=10ns tphlMX=20ns)
+
+.ENDS  74LS08
+*
+*
+* ----------------------------------------------------------- 74LS32 ------
+*  Quad 2-Input Or Gates
+*
+*  The TTL Logic Data Book, 1988, TI Pages 2-137 to 2-141
+*  bss    2/9/94
+*
+.SUBCKT 74LS32  1A 1B 1Y
++     optional: DPWR=$G_DPWR DGND=$G_DGND
++     params: MNTYMXDLY=0 IO_LEVEL=0
+
+U1 or(2) DPWR DGND
++     1A 1B 1Y
++     DLY_LS32 IO_LS MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL}
+
+.model DLY_LS32 ugate (tplhTY=14ns tplhMX=22ns tphlTY=14ns tphlMX=22ns)
+
+.ENDS  74LS32
+*
+*
