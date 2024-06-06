@@ -19,23 +19,8 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(152, 78, 163)",
-          "signal": "V(/Clock_Module/_CLK)",
-          "trace_type": 257
-        },
-        {
           "color": "rgb(255, 127, 0)",
-          "signal": "V(/Clock_Module/_MANUAL_CLK_PULSE)",
-          "trace_type": 257
-        },
-        {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(/Clock_Module/a)",
-          "trace_type": 257
-        },
-        {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(VCC)",
+          "signal": "V(/Clock_Module/CLK)",
           "trace_type": 257
         }
       ]

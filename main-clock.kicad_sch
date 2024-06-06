@@ -1221,7 +1221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1957a74-3c2e-4bf1-b048-f10c81f49b1b")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 193.04 86.3599 0)
 			(effects
 				(font
@@ -1311,7 +1311,7 @@
 		(instances
 			(project "8-bit-computer"
 				(path "/64f7f61e-1043-4516-89cf-db6a25fcb096/9534564d-2813-40f9-953b-2838250e65d7/e503b9eb-d113-495b-825f-b3db55a219d0"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1415,7 +1415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcba7241-aaff-45f6-b836-e2b08965d370")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 173.99 69.8499 0)
 			(effects
 				(font
@@ -1469,7 +1469,7 @@
 		(instances
 			(project "8-bit-computer"
 				(path "/64f7f61e-1043-4516-89cf-db6a25fcb096/9534564d-2813-40f9-953b-2838250e65d7/e503b9eb-d113-495b-825f-b3db55a219d0"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -1485,7 +1485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eebcf823-7306-426b-a49c-b38427e58284")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 180.34 74.93 90)
 			(effects
 				(font
@@ -1537,7 +1537,7 @@
 		(instances
 			(project "8-bit-computer"
 				(path "/64f7f61e-1043-4516-89cf-db6a25fcb096/9534564d-2813-40f9-953b-2838250e65d7/e503b9eb-d113-495b-825f-b3db55a219d0"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)

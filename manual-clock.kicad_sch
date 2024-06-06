@@ -869,7 +869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abfb3638-b400-45a8-a0c8-6d5de530c14c")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 154.94 62.2299 0)
 			(effects
 				(font
@@ -923,7 +923,7 @@
 		(instances
 			(project "8-bit-computer"
 				(path "/64f7f61e-1043-4516-89cf-db6a25fcb096/9534564d-2813-40f9-953b-2838250e65d7/8b8c0dd5-63d2-4989-a35c-f894197311aa"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
